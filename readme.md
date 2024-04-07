@@ -7,12 +7,12 @@ Backend deployed at https://kong-service-dabaoking-kong-seanjin97.cloud.okteto.n
 # How to start our application locally
 
 ## Start the backend.
-1. Unzip `backend/dabaoking-backend.zip`
+1. `git clone https://github.com/seanjin97/dabaohero-backend`
 2. `cd backend/dabaoking-backend`.
 1. `docker compose up -d`.
 
 ## Build and run the frontend in production mode.
-1. Unzip `frontend/dabaoking-ui.zip`.
+1. `git clone https://github.com/seanjin97/dabaohero-frontend`
 2. `cd frontend/dabaoking-ui`.
 2. Install [pnpm](https://pnpm.io/installation#using-corepack). We used the corepack method in the installation docs.
 3. `pnpm i` to install dependencies.
